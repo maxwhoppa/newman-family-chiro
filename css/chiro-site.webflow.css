@@ -4584,6 +4584,13 @@ blockquote {
     min-height: 94vh;
   }
 
+  .section.banner-about-us {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    display: flex;
+  }
+
   .banner-title-wrapper.faq-title {
     max-width: 860px;
   }
@@ -6969,23 +6976,7 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-_62902607-ecc1-0266-a456-4c7b22efeb19-bff1123a, #w-node-_62902607-ecc1-0266-a456-4c7b22efeb1d-bff1123a, #w-node-_62902607-ecc1-0266-a456-4c7b22efeb21-bff1123a {
-    grid-area: span 1 / span 2 / span 1 / span 2;
-  }
-
-  #w-node-_62902607-ecc1-0266-a456-4c7b22efeb25-bff1123a {
-    grid-area: 2 / 2 / 3 / 4;
-  }
-
-  #w-node-_62902607-ecc1-0266-a456-4c7b22efeb29-bff1123a, #w-node-_0f1af595-d9e4-ae6d-8f1c-8a30b71e1a46-bff11261, #w-node-_0f1af595-d9e4-ae6d-8f1c-8a30b71e1a49-bff11261, #w-node-_0f1af595-d9e4-ae6d-8f1c-8a30b71e1a4c-bff11261 {
-    grid-area: span 1 / span 2 / span 1 / span 2;
-  }
-
-  #w-node-c23e3438-beeb-fa0b-4541-642294eb613c-bff11261 {
-    grid-area: 2 / 2 / 3 / 4;
-  }
-
-  #w-node-_7c7cf8d4-bbd8-0470-be0e-b202e9826fb0-bff11261, #w-node-_361fb93e-c2e8-8074-0419-fa0e9287b1a5-bff11286 {
+  #w-node-_361fb93e-c2e8-8074-0419-fa0e9287b1a5-bff11286 {
     grid-area: span 1 / span 2 / span 1 / span 2;
   }
 
