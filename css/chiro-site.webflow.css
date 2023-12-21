@@ -4580,6 +4580,10 @@ blockquote {
     padding-right: 100px;
   }
 
+  .section.contacts-banner {
+    text-align: left;
+  }
+
   .section.banner-home-1 {
     min-height: 94vh;
   }
